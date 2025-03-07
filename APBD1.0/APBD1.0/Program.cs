@@ -5,3 +5,7 @@ for (int i = 0; i < 10; i++)
     Console.Write((char)(i + 97) + " ");
 }
 Console.WriteLine();
+Console.Write("Podaj liczbę: ");
+int x = int.Parse(Console.ReadLine());
+Console.WriteLine(x*4);
+Console.WriteLine();
