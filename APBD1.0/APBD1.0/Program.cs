@@ -9,3 +9,10 @@ Console.Write("Podaj liczbę: ");
 int x = int.Parse(Console.ReadLine());
 Console.WriteLine(x*4);
 Console.WriteLine();
+int[] tab = new int[10];
+for (int i = 0;i < tab.Length;i++) 
+{
+    tab[i] = i*i;
+}
+
+tab.ToList().ForEach(t => Console.WriteLine(t));
